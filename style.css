@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+
+.Container{
+    font-weight: bold;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 35vh;
+    width: 40vh;
+    border: 3px solid lightgreen;
+    margin-bottom: 10rem;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+input{
+    margin-top: 1rem;
+}
+
+form select, 
+button, 
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgreen;
+    font-size: 1rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.Dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.Dropdown p{
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.Dropdown i{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.Select-Container img{
+    min-width: 1rem;
+    margin-left: 0.25rem;
+}
+
+.Select-Container{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgreen;
+    border-radius: 0.75rem;
+}
+
+.Select-Container select{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.Msg{
+    margin: 2rem 0 2rem 0;
+    border: 2px solid lightgreen;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form button{
+    height: 3rem;
+    background-color: #af4d98;
+    color: wheat;
+    font-size: 1.15rem;
+    cursor: pointer;
+    border: 2px solid lightgreen;
+    /* border-radius: 1rem; */
+}
+
+.Container h2{
+    height: 2rem;
+    background-color: #af4d98;
+    color: wheat;
+    font-size: 1.15rem;
+    border: 2px solid lightgreen;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.Amount p{
+    text-align: center;
+    font-size: 1.15rem;
+}
